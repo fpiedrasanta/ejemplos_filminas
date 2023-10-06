@@ -1,0 +1,35 @@
+.background-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background-color: rgba(0, 0, 0, 127);
+}
+
+.popup-box {
+    border: black 1px solid;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.popup-title {
+    background-color: aquamarine;
+    width: 100%;
+}
+
+#close {
+    width: 20px;
+}
+
+.popup-body {
+    background-color: cadetblue;
+}
